@@ -1,4 +1,8 @@
 "user strict";
+ let multi = ""; 
+ let divi = "";
+ let resta = "";
+ let suma = "";
 function porConsola(n1,n2){
 
     console.log("La suma es " + (n1+n2));
@@ -18,7 +22,7 @@ console.log("************ ")
 calculadora(45, 50); /*argumento*/
 /*porConsola(20,45);*/ /*invoco a la funion y le paso los argumentos es decir los valores*/
 
-function porPantalla(n1,n2){
+function porPantalla(n1,n2, ){
     suma += "la suma de dos números es: " + (n1+n2);
     document.getElementById("suma").innerHTML = suma;
 
