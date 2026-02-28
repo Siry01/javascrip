@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diccionario Numérico</title>
+</head>
+<body>
+
+    <h2>Diccionario de Días</h2>
+    <div id="Siry"></div>
+
+    <script>
+        let texto = "";
+        let numero = parseInt(prompt("Ingrese un número del 1 al 7:"));
+        let dia = "";
+
+        if (isNaN(numero) || numero < 1 || numero > 7) {
+            dia = "Número inválido";
+        } else {
+
+            switch (numero) {
+                case 1:
+                    dia = "Monday";
+                    break;
+                case 2:
+                    dia = "Tuesday";
+                    break;
+                case 3:
+                    dia = "Wednesday";
+                    break;
+                case 4:
+                    dia = "Thursday";
+                    break;
+                case 5:
+                    dia = "Friday";
+                    break;
+                case 6:
+                    dia = "Saturday";
+                    break;
+                case 7:
+                    dia = "Sunday";
+                    break;
+            }
+        }
+
+        console.log(dia);
+
+        texto += "El día correspondiente al número " + numero + " es: " + dia;
+
+        document.getElementById("Siry").innerHTML = texto;
+
+    </script>
+
+</body>
+</html>
