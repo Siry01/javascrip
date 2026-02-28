@@ -11,17 +11,17 @@
     <script>
 
         let texto = "";
-        let numeroSecreto = 5; 
+        let numeroSecreto = 8; 
         let intento;
-        let intentosRestantes = 2;
+        let intentosRestantes = 3;
 
         while (intentosRestantes > 0) {
 
-            intento = parseInt(prompt(" ve pensando en un número... ¿Podrás adivinarlo? Solo tienes 2 intentos."));
+            intento = parseInt(prompt(" Piensa en un número... ¿Podrás adivinar cual es?."));
 
             if (intento == numeroSecreto) {
-                console.log("¡Felicidades! Adivinaste el número.");
-                texto += " ¡Felicidades! Adivinaste el número secreto.";
+                console.log("¡Felicitaciones! Adivinaste el número.");
+                texto += " ¡Felicitaciones! Adivinaste el número secreto.";
                 document.getElementById("ayuda").innerHTML = texto;
                 break;
             } else {
