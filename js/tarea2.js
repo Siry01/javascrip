@@ -1,6 +1,5 @@
 // TAREA 2
 
-
 var Opcion = prompt('Deseas registrar notas del estudiante? (si/no)', 'si');
 
 
@@ -96,7 +95,7 @@ if(Opcion == "si"){
     console.log(Notas_Ajustadas);
 
    
-    if(Promedio >= 10){
+    if(Promedio >= 50){
         console.log("✅ El estudiante APROBO");
     } else {
         console.log("❌ El estudiante REPROBO");
