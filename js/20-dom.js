@@ -9,7 +9,7 @@ const card = document.querySelector(".card");
 
 console.log(card);
 
-const info = document.querySelector(".premium ")
+const info = document.querySelector(".premium ").textContent = "aprendiendo a manipular el dom"
 console.log(info);
 
 const cards = document.querySelectorAll(".card ")
