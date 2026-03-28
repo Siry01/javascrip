@@ -33,32 +33,32 @@ switch (true){
 
 // en caso sea de caracas diga soy caraque; o en caso sea madri soy madrice;
 
-var usuario = "alex";
+var usuario = "Jesus";
 var password = "1234";
-var rol = "admin";
+var rol = "Estudiante";
 
 switch (true) {
 
-    case usuario === "" || password === "":
+    case usuario === "" && password === "" && rol === "" :
         console.log("Debe ingresar usuario y contraseña");
         break;
 
-    case usuario !== "alex" || password !== "1234":
-        console.log("Usuario o contraseña incorrectos");
+    case usuario == "Siry" && password == "1234" && rol == "Administrador" :
+        console.log("Bienvenido Administrador, tienes acceso total al sistema ");
         break;
 
-    case rol === "administrador":
-        console.log("Bienvenido Administrador, tienes acceso total");
+    case usuario == "Jesus" && password == "1234" && rol == "Estudiante" :
+        console.log("Bienvenido estudiante, tienes acceso al sistema ");
         break;
 
-    case rol === "inspector":
-        console.log("Bienvenido Inspector, puedes revisar registros");
+    case usuario == "Carlos" && password == "1234" && rol == "Profesor" :
+        console.log("Bienvenido profesor, tienes acceso al sistema ");
         break;
 
-    case rol === "recursos humanos":
-        console.log("Bienvenido Recursos Humanos, puedes gestionar empleados");
+    case usuario == "Alexander" && password == "1234" && rol == "Gerente" :
+        console.log("Bienvenido Gerente, tienes acceso al sistema ");
         break;
 
-    default:
+         default:
         console.log("Rol no válido");
 }

@@ -1,0 +1,19 @@
+.boton{
+   width: 300px;
+   padding: 20px;
+   background-color: aquamarine;
+   border-radius: 20px;
+   color: white;
+}
+
+.red {
+    background-color: red;
+    text-decoration: underline;
+    width: 500px;
+    padding: 50px;
+}
+
+.blue {
+    background-color: blue;
+
+}
