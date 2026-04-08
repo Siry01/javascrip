@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Calculadora </title>
+<link rel="stylesheet" href="calculadora.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="calculadora">
+    <input type="text" id="pantalla" disabled placeholder="0">
+
+    <div class="botones">
+        <button class="btn" data-accion="limpiar"><i class="fas fa-trash"></i></button>
+        <button class="btn" data-accion="borrar"><i class="fas fa-backspace"></i></button>
+        <button class="btn operador" data-valor="/">/</button>
+        <button class="btn operador" data-valor="*">x</button>
+
+        <button class="btn" data-valor="7">7</button>
+        <button class="btn" data-valor="8">8</button>
+        <button class="btn" data-valor="9">9</button>
+        <button class="btn operador" data-valor="-">-</button>
+
+        <button class="btn" data-valor="4">4</button>
+        <button class="btn" data-valor="5">5</button>
+        <button class="btn" data-valor="6">6</button>
+        <button class="btn operador" data-valor="+">+</button>
+
+        <button class="btn" data-valor="1">1</button>
+        <button class="btn" data-valor="2">2</button>
+        <button class="btn" data-valor="3">3</button>
+        <button class="btn igual" data-accion="igual">=</button>
+
+        <button class="btn cero" data-valor="0">0</button>
+        <button class="btn" data-valor=".">.</button>
+    </div>
+</div>
+
+<script src="calculadora.js"></script>
+</body>
+</html>
