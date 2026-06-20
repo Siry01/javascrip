@@ -8,3 +8,6 @@
 - Funciones
 - Funciones que retornan un valor
 - Metodos upper- lower
+
+## CLASE 2
+
